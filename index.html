@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Farhan Khan | EVEM Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home"><b>FK</b><span>FARHAN KHAN</span></a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About EVEM</a>
+    <a href="#work">My Work</a>
+    <a href="#reflection">Reflection</a>
+  </nav>
+  <button id="mode" aria-label="Toggle theme">◐</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">EVEM • E-PORTFOLIO • 2026</p>
+    <h1>My journey<br>towards a<br><em>greener future.</em></h1>
+    <p class="intro">A personal academic portfolio documenting my learning, activities and assignments from Environmental Values and Environmental Management (EVEM).</p>
+    <a class="scroll" href="#about">Explore portfolio ↓</a>
+  </div>
+  <div class="hero-art">
+    <div class="orb">♻</div>
+    <div class="ring r1"></div><div class="ring r2"></div>
+    <span class="word w1">RESPONSIBILITY</span>
+    <span class="word w2">SUSTAINABILITY</span>
+    <span class="word w3">AWARENESS</span>
+  </div>
+</section>
+
+<section class="profile section" id="about">
+  <div class="tag">01 / ABOUT THE SUBJECT</div>
+  <div class="two-col">
+    <div>
+      <p class="big">EVEM helped me look at engineering from a different point of view — not only what technology can do, but <span>what responsibility comes with it.</span></p>
+    </div>
+    <div class="copy">
+      <p>Through this subject, I have explored ideas connected with environmental responsibility, sustainable practices, waste reduction and responsible use of technology.</p>
+      <p>This portfolio brings together my actual EVEM academic work and my reflections on the importance of building a cleaner and more sustainable future.</p>
+    </div>
+  </div>
+</section>
+
+<section class="values section">
+  <div class="tag">02 / WHAT I TAKE FROM EVEM</div>
+  <div class="value-grid">
+    <article><span>01</span><h3>Think Responsibly</h3><p>Consider the environmental impact of everyday choices and engineering decisions.</p></article>
+    <article><span>02</span><h3>Reduce Waste</h3><p>Use resources carefully and understand why reducing unnecessary waste matters.</p></article>
+    <article><span>03</span><h3>Handle E-Waste</h3><p>Recognize the importance of responsible disposal and management of electronic waste.</p></article>
+    <article><span>04</span><h3>Act Sustainably</h3><p>Turn environmental awareness into practical habits in personal and professional life.</p></article>
+  </div>
+</section>
+
+<section class="work section" id="work">
+  <div class="tag">03 / MY EVEM WORK</div>
+  <div class="work-head">
+    <h2>Actual<br><em>assignments.</em></h2>
+    <p>These cards contain my submitted EVEM work. Select an assignment to open the original submitted PDF.</p>
+  </div>
+
+  <div class="assignment-grid">
+    <article class="assignment" data-id="1">
+      <div class="top"><strong>01</strong><span>COMMITMENT</span></div>
+      <div class="mini-icon">🌱</div>
+      <h3>My Commitment to a Sustainable Future</h3>
+      <p>A student commitment to responsible engineering and conscious citizenship, including wise technology use, reducing waste, responsible e-waste disposal and sustainable practices.</p>
+      <button>VIEW PDF ↗</button>
+    </article>
+
+    <article class="assignment" data-id="2">
+      <div class="top"><strong>02</strong><span>LEARNING ACTIVITY</span></div>
+      <div class="mini-icon">♻</div>
+      <h3>E-Waste Mastermind</h3>
+      <p>An EVEM learning activity presented as a visual puzzle focused on e-waste and environmental awareness.</p>
+      <button>VIEW PDF ↗</button>
+    </article>
+  </div>
+</section>
+
+<section class="pledge section" id="reflection">
+  <div class="tag">04 / PERSONAL REFLECTION</div>
+  <div class="reflection-box">
+    <p class="quote">“A sustainable future is built through small responsible choices repeated every day.”</p>
+    <p>My EVEM work has made me more conscious of how technology, consumption and waste are connected with the environment. As an engineering student, I want to carry this awareness beyond the classroom and make responsible choices while learning and building with technology.</p>
+    <div class="signature">FARHAN KHAN <span>24101A0063</span></div>
+  </div>
+</section>
+
+<section class="commitment section">
+  <div class="tag">05 / MY STUDENT COMMITMENT</div>
+  <div class="commit-card">
+    <h2>Think Green.<br>Innovate Responsibly.<br><em>Act Sustainably.</em></h2>
+    <ul>
+      <li>♻ Use technology wisely.</li>
+      <li>🌱 Reduce waste and conserve resources.</li>
+      <li>📱 Dispose of e-waste responsibly.</li>
+      <li>💡 Embrace sustainable practices.</li>
+      <li>🤝 Encourage others to care for the environment.</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>FARHAN KHAN • 24101A0063</span>
+  <span>EVEM ACADEMIC PORTFOLIO</span>
+</footer>
+
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <button id="close">×</button>
+    <p class="eyebrow" id="modalMeta"></p>
+    <h2 id="modalTitle"></h2>
+    <img id="modalImg" alt="Original EVEM assignment">
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
