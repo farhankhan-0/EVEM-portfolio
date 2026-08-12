@@ -7,7 +7,7 @@ const data={
   2:{
     meta:'EVEM • ASSIGNMENT 02 • STUDENT WORK',
     title:'E-Waste Mastermind',
-    file:'assets/assignments/assignment-02.pdf'
+    file:'assets/assignments/assignment-02.png'
   }
 };
 
