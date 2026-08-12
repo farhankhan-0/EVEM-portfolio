@@ -8,7 +8,12 @@ const data={
     meta:'EVEM • ASSIGNMENT 02 • STUDENT WORK',
     title:'E-Waste Mastermind',
     file:'assets/assignments/assignment-02.png'
-  }
+  },
+  3: {
+    meta: "EVEM • ASSIGNMENT 03",
+    title: "Your Assignment Title",
+    file: "assets/assignments/assignment-03.pdf"
+}
 };
 
 document.querySelectorAll('.assignment').forEach(card=>{
